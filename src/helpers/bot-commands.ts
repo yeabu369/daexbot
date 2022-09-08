@@ -40,7 +40,7 @@ export const getPrivateChatAdminCommands = (options: {
   const commands = [
     {
       command: "stats",
-      description: "Stats",
+      description: t("Stats"),
     },
     {
       command: "setcommands",
